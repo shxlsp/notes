@@ -1,0 +1,13 @@
+Chrome DevTools
+    Chrome 开发者工具交互通过 V8 Inspector Protoco 调试协议，使用 websocket 和 开发工具交互，提供了图形化的调试界面，操作非常简单
+
+    1. node --inspect-brk main.js
+
+    2. 打开chrome地址栏输入chrome://inspect/#devices
+
+    3. 点击 Remote Target 中调试的文件名 "inspect" 按钮(或Open dedicated DevTools for Node按钮)
+
+VS Code
+    1. 打开调试按钮 => vs Code侧边栏调试按钮
+    2. 创建 launch.json。配置规则地址在自动创建的文件里会给出。或者访问https://code.visualstudio.com/docs/nodejs/nodejs-debugging
+    3. 点击 “Launch Program”旁边的播放按钮，开始调试
